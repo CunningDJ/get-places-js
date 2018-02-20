@@ -1,0 +1,24 @@
+{
+  "name": "getPlaces",
+  "version": "1.0.0",
+  "description": "A quick app I made to get human-friendly place names from ip addresses, and get a unique, sorted set of these names if desired.  To test, run `node app.js [json file path]`.",
+  "main": "app.js",
+  "dependencies": {
+    "geoip-lite": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CunningDJ/get-places-js.git"
+  },
+  "keywords": ["ip","geo","data"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CunningDJ/get-places-js/issues"
+  },
+  "homepage": "https://github.com/CunningDJ/get-places-js#readme"
+}
