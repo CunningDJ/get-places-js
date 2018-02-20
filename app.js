@@ -21,7 +21,6 @@ if (require.main === module) {
 function printUniquePlaces(ips) {
     var uniquePlaces = getUniqueIpPlaces(ips);
     
-    console.log('\n------\n');
     console.log('Places:');
     uniquePlaces.forEach((p) => { console.log(p); });
 
